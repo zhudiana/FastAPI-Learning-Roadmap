@@ -1,10 +1,14 @@
-class Calculate:
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-    def add(self):
-        return self.x + self.y
+    def print_info(self):
+        print(f"This is {self.name} and I am {self.age} years old.")
 
-calc = Calculate(4,6)
-print(calc.add())
+# Child class
+class Student(Person):
+    pass
+
+x = Student("John", 34)
+x.print_info()
