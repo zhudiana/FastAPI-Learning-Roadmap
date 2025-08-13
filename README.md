@@ -32,7 +32,7 @@ Before diving into FastAPI, make sure you are comfortable with:
 ---
 
 ## ⚡ 2. FastAPI Basics
-- Installation: `pip install fastapi[all]`
+- Installation
 - Creating endpoints with HTTP methods (GET, POST, PUT, DELETE)
 - Path & query parameters
 - Request & response models using **Pydantic**
