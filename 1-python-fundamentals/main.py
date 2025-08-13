@@ -1,4 +1,7 @@
-def say_hi(name: str) -> str:
-    return f"Hi {name}"
+myList = [2, 4, "James", False]
+# for value in myList:
+#     print(value)
 
-print(say_hi(6))
+values = [print(value) for value in myList]
+
+print(values)
