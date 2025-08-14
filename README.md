@@ -33,8 +33,8 @@ Before diving into FastAPI, make sure you are comfortable with:
 
 ## ⚡ 2. FastAPI Basics
 - Installation
-- Creating endpoints with HTTP methods (GET, POST, PUT, DELETE)
 - Path & query parameters
+- Creating endpoints with HTTP methods (GET, POST, PUT, DELETE)
 - Request & response models using **Pydantic**
 - Automatic docs: Swagger UI (`/docs`) and ReDoc (`/redoc`)
 
