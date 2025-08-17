@@ -27,7 +27,7 @@ Before diving into FastAPI, make sure you are comfortable with:
 - Type hints
 - Data structures: lists, dicts, sets, tuples
 - Working in the terminal/command line
-- Virtual environments: `venv`, `pipenv`, or `poetry`
+- Virtual environments: `venv`, `pipenv`
 
 ---
 
