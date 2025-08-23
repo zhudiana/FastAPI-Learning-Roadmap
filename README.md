@@ -43,7 +43,6 @@ Before diving into FastAPI, make sure you are comfortable with:
 ## 🗄 3. CRUD & Data Modeling
 - Build RESTful CRUD APIs
 - Use SQL (PostgreSQL, MySQL, SQLite) with **SQLAlchemy** or Tortoise ORM
-- NoSQL integration (MongoDB with Motor/Beanie)
 - Database migrations (Alembic, Tortoise migrations)
 - Pydantic schemas for request/response validation
 
