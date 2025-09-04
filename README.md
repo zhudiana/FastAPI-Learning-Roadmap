@@ -5,124 +5,57 @@ Includes structured notes, curated resources, and example projects.
 
 ---
 
-## 📖 Introduction
+##  What’s Inside
 
-This repository documents my journey to mastering **FastAPI**, one of the fastest and most modern Python web frameworks.  
+- **01 – Python Fundamentals**  
+  Build a solid foundation in functions, OOP, type hints, data structures, virtual environments, and CLI tools.
 
-It includes:
-- **Python fundamentals** needed before starting with FastAPI  
-- A **step-by-step learning roadmap** from beginner to expert  
-- Curated resources, examples, and practice projects  
-- Markdown notes for each topic, perfect for quick revision  
+- **02 – FastAPI Setup & Basics**  
+  Learn to install FastAPI, write endpoints using path and query parameters, define Pydantic models, and explore auto-generated docs (Swagger UI / ReDoc).
 
-Whether you’re new to backend development or want to deepen your FastAPI skills, this repo can serve as your learning companion.
+- **03 – Projects: Request Methods & Flow**  
+  Practice building examples that handle GET, POST, PUT, DELETE and advanced request–response patterns.
 
----
+- **04 – FastAPI in Motion**  
+  Dive deeper into client/server flow, routers, middleware, and dependency injection.
 
-## 🛠 1. Python Fundamentals
+- **05 – Structuring with SQLite (and transitioning to Production DBs)**  
+  Use SQLite with SQLAlchemy, then upgrade to PostgreSQL/MySQL as your app scales.
 
-Before diving into FastAPI, make sure you are comfortable with:
-- Functions & control flow (`if`, `for`, `while`)
-- Object-Oriented Programming (classes, inheritance)
-- Type hints
-- Data structures: lists, dicts, sets, tuples
-- Working in the terminal/command line
-- Virtual environments: `venv`, `pipenv`
+- **06 – Authentication & Authorization**  
+  Set up user models, password hashing, JWT authentication with role-based permissions, and protected endpoints.
 
----
+- **07 – Authenticated Access Flow**  
+  Learn how to log in via OAuth2, decode JWTs, and ensure users only access their own data.
 
-## ⚡ 2. FastAPI Basics
-- Installation
-- Path & query parameters
-- Creating endpoints with HTTP methods (GET, POST, PUT, DELETE)
-- Request & response models using **Pydantic**
-- Automatic docs: Swagger UI (`/docs`) and ReDoc (`/redoc`)
+- **08 – Managing Migrations with Alembic**  
+  Generate migrations, apply them (upgrade/downgrade), and synchronize your FastAPI models.
 
----
+- **09 – Adding DB Columns Safely**  
+  Example migration: adding the `phone_number` field with null-handling and updating models.
 
-## 🗄 3. CRUD & Data Modeling
-- Build RESTful CRUD APIs
-- Use SQL (PostgreSQL, MySQL, SQLite) with **SQLAlchemy** or Tortoise ORM
-- Database migrations (Alembic, Tortoise migrations)
-- Pydantic schemas for request/response validation
+- **10 – Testing in FastAPI**  
+  Write tests using `pytest`, utilize fixtures vs. class-style setups, and create clean, maintainable tests.
 
 ---
 
-## 🔐 4. Authentication & Authorization
-- JWT-based authentication
-- OAuth2 & third-party logins
-- Role-Based Access Control (RBAC)
+##  How to Use This Roadmap
+
+1. Start from **Python Fundamentals**, unless you're already confident in them.
+2. Progress through each section in order, working through the **notes** and applying them hands-on.
+3. Open the `/notes` folder for step-by-step explanations and real examples.
+4. Practice using Swagger UI, look at migrations in Alembic, and test your ideas with `pytest`.
 
 ---
 
-## ⚙ 5. Async Programming & Performance
-- Master `async`/`await`
-- Async-friendly DB drivers (`asyncpg`, AIOHTTP)
-- Background tasks
-- ASGI, Starlette, and Uvicorn fundamentals
+##  Resources
+
+- [FastAPI Official Docs](https://fastapi.tiangolo.com)  
+- [SQLAlchemy ORM Docs](https://docs.sqlalchemy.org)  
+- [Pydantic Validation Guide](https://docs.pydantic.dev)  
 
 ---
 
-## 🔌 6. Dependency Injection & Middleware
-- Dependency Injection with `Depends`
-- Middleware for logging, CORS, etc.
-- Startup & shutdown events (DB connections, background jobs)
+##  Goal
 
----
-
-## 🧪 7. Testing
-- Unit and integration testing with **pytest**
-- FastAPI’s `TestClient`
-- Mocking external services
-
----
-
-## ☁ 8. Deployment & Scalability
-- Containerization with **Docker**
-- Deploy to AWS, GCP, Azure, or VPS
-- ASGI production servers (Uvicorn, Gunicorn, Daphne)
-- Scaling strategies (workers, Kubernetes)
-
----
-
-## 🎯 9. Advanced Topics
-- GraphQL integration (Ariadne, Strawberry)
-- Real-time apps with WebSockets
-- Caching with Redis
-- Background processing with Celery
-
----
-
-## 🌐 10. Full-Stack Integration
-- Combine FastAPI with React, Vue, or Angular
-- WebSockets for live updates
-
----
-
-## 💡 11. Best Practices & Community Tips
-> “The most important thing in FastAPI is to know where you potentially can block the event loop — learn what runs in the main thread/event loop versus another (async def vs def).”  
-> — r/FastAPI community
-
-> “Keep routes clean. Write business logic in a service layer, data in repositories. Separate schemas/models … easier to test and maintain.”
-
----
-
-## 📌 How to Use This Repo
-1. Start with **Python Fundamentals**
-2. Follow each roadmap section in order
-3. Check `/notes` folder for my detailed Markdown study notes
-4. Practice by building small projects at every stage
-
----
-
-## 📚 Resources
-- [FastAPI Official Docs](https://fastapi.tiangolo.com)
-- [SQLAlchemy Docs](https://docs.sqlalchemy.org)
-- [Pydantic Docs](https://docs.pydantic.dev)
-
----
-
-## 🏆 Goal
-By following this roadmap, I aim to reach **expert-level proficiency** in FastAPI and document every step for others to learn from.
-
----
+By following this roadmap, you'll build scalable, secure APIs with FastAPI, backed by PostgreSQL, migrations, authentication, and solid testing practices.
