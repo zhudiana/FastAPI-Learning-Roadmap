@@ -95,7 +95,7 @@ def find_movie_id(movie: Movie):
     return movie
 
 
-@app.put("/movies/update-movies", status_code=status.HTTP_204_NO_CONTENT)
+@app.put("/movies/{movie_id}", status_code=status.HTTP_204_NO_CONTENT)
 def update_movies(movies: MovieRequest):
     movie_changed = False
     for i in range(len(MOVIES)):
