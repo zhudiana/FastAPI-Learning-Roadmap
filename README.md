@@ -59,3 +59,7 @@ Includes structured notes, curated resources, and example projects.
 ##  Goal
 
 By following this roadmap, you'll build scalable, secure APIs with FastAPI, backed by PostgreSQL, migrations, authentication, and solid testing practices.
+
+---
+
+⭐ If you find this roadmap useful, consider giving the repository a star.
