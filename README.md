@@ -9,6 +9,7 @@ Includes structured notes, curated resources, and example projects.
 
 - **01 – Python Fundamentals**  
   Build a solid foundation in functions, OOP, type hints, data structures, virtual environments, and CLI tools.
+  You can find important python concepts [here](https://github.com/zhudiana/Python-notes)
 
 - **02 – FastAPI Setup & Basics**  
   Learn to install FastAPI, write endpoints using path and query parameters, define Pydantic models, and explore auto-generated docs (Swagger UI / ReDoc).
